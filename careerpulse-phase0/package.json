@@ -1,0 +1,29 @@
+{
+  "name": "careerpulse-phase0",
+  "version": "0.1.0",
+  "description": "CareerPulse Phase 0 — ATS detection & job scraping proof-of-concept",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/run.js",
+    "dev": "tsc && node dist/run.js",
+    "sync": "tsc && node dist/db/runSync.js",
+    "sync:all": "tsc && node dist/db/runBatchSync.js",
+    "testpush": "tsx src/testPush.ts"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.0",
+    "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "classes": [
+    "zh_open_role zh-sign zh-btn arrow-icon white",
+    "cw_career_openings cw_jobs",
+    "embed_jobs_head embed_jobs_with_style_2 embed_jobs_with_style",
+    "embed_jobs_head2",
+    "embed_jobs_head3",
+    "rec_facet_group",
+    "rec_job_listing_div_jobs",
+    "rec-grp-heading",
+    "rec-group",
+    "rec-job-info",
+    "rec-job-title"
+  ],
+  "elements": [
+    {
+      "class": "zw-page-4391 zw-product-112 zw-product-careers zw-template-zp_landing_pages i18n-en r-g-f rmv-prd-menu ccode-in lang-en zos-windows zb-chrome zbv-chrome-149 ccode-apaccountries domain-com zph-sticky non-umain",
+      "text": "Get Started   Zoho.comJobsLog in Register        HomeJobsLog"
+    },
+    {
+      "class": "cw_career",
+      "text": "Zoho.comJobsLog in Register        HomeJobsLog inRegister   "
+    },
+    {
+      "class": "cw_career_header",
+      "text": "Zoho.comJobsLog in Register"
+    },
+    {
+      "class": "nav cw_career_login_nav",
+      "text": "Log in Register"
+    },
+    {
+      "class": "cw_career_mobile_menu",
+      "text": "HomeJobsLog inRegister"
+    },
+    {
+      "class": "cw_career_bar1",
+      "text": ""
+    },
+    {
+      "class": "cw_career_bar2",
+      "text": ""
+    },
+    {
+      "class": "cw_career_bar3",
+      "text": ""
+    },
+    {
+      "class": "cw_career_dropdown",
+      "text": "HomeJobsLog inRegister"
+    },
+    {
+      "class": "cw_career_banner",
+      "text": "We’re more than just a workplace. We’re a family.We know tha"
+    },
+    {
+      "class": "zh_open_role zh-sign zh-btn arrow-icon white",
+      "text": "View Open Roles"
+    },
+    {
+      "class": "cw_career_ban_img",
+      "text": "LIKES TO BUILD MYSELF WE GIVE CAREER SOLUTION"
+    },
+    {
+      "class": "cw_career_openings cw_jobs",
+      "text": "Some opportunities for you to explore Full time ( 2 ) Sales "
+    },
+    {
+      "class": "embed_jobs_head embed_jobs_with_style_2 embed_jobs_with_style",
+      "text": "Full time ( 2 ) Sales ExecutivesBuild rapport with contacts "
+    },
+    {
+      "class": "embed_jobs_head2",
+      "text": "Full time ( 2 ) Sales ExecutivesBuild rapport with contacts "
+    },
+    {
+      "class": "embed_jobs_head3",
+      "text": "Full time ( 2 ) Sales ExecutivesBuild rapport with contacts "
+    },
+    {
+      "class": "rec_job_listing_div_jobs",
+      "text": "Full time ( 2 ) Sales ExecutivesBuild rapport with contacts "
+    },
+    {
+      "class": "rec-job-info",
+      "text": "Sales ExecutivesBuild rapport with contacts and understand w"
+    },
+    {
+      "class": "rec-job-title",
+      "text": "Sales Executives"
+    },
+    {
+      "class": "rec-job-info",
+      "text": "Technical Support EngineersProvide voice-based support to in"
+    },
+    {
+      "class": "rec-job-title",
+      "text": "Technical Support Engineers"
+    },
+    {
+      "class": "cw_career_visit",
+      "text": "Can’t find what you’re looking for? Register on our Candidat"
+    }
+  ]
+}

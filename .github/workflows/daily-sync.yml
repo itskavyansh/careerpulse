@@ -1,0 +1,37 @@
+name: Daily Job Sync
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  
+  workflow_dispatch:
+
+jobs:
+  sync_jobs:
+    runs-on: ubuntu-latest
+    
+    # 15 minutes is plenty for our 33 test companies, considering a polite 500ms delay between each.
+    # It acts as a safety measure so a hung request doesn't eat your actions minutes forever.
+    timeout-minutes: 15
+
+    # Define environment variables pulled from GitHub secrets.
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          
+      - name: Install Dependencies
+        working-directory: careerpulse-phase0
+        run: npm ci || npm install # falls back to install if there's no package-lock.json
+
+      - name: Run Batch Sync
+        working-directory: careerpulse-phase0
+        run: npm run sync:all
