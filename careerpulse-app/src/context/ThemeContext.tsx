@@ -23,7 +23,7 @@ export const lightColors = {
     primaryText: '#7A5A2C', // deep brass (text on pale brass bg)
     statusApplied: '#B45309', // warm amber-brown
     statusInterviewing: '#15803D', // warm green (success)
-    statusRejected: '#9CA3AF', // muted gray — less alarming than red
+    statusRejected: '#B91C1C', // warm red
     error: '#B91C1C', // warm red
     errorBg: '#FEF2F2', // unchanged — still legible
     shadowOpacity: 0,         // no shadows — borders only
@@ -41,7 +41,7 @@ export const darkColors = {
     primaryText: '#E0C080', // light brass for text on dark brass-tinted surfaces
     statusApplied: '#D97706', // warm amber
     statusInterviewing: '#34D399', // warm green
-    statusRejected: '#6B7280', // mid gray
+    statusRejected: '#F87171', // red
     error: '#F87171', // unchanged
     errorBg: '#2D1515', // warm dark red bg
     shadowOpacity: 0,         // no shadows in dark mode either
